@@ -62,7 +62,7 @@ Sou um **Engenheiro de Software Aumentado por IA**. Trabalho na vanguarda do des
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img height="155em" src="https://github-readme-stats.vercel.app/api?username=Lamezon&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+  <img height="155em" src="https://github-readme-stats.vercel.app/api?username=Lamezon&show_icons=true&theme=tokyonight&hide_rank=true" />
   <img height="155em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lamezon&layout=compact&theme=tokyonight&langs_count=6" />
 </div>
 
