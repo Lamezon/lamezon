@@ -1,3 +1,7 @@
+<div align="right">
+  <strong>English</strong> | <a href="readme.pt.md">🇧🇷 Versão em Português</a>
+</div>
+
 <div align="center">
 
 # Matheus Lamezon
@@ -9,108 +13,108 @@
   </a>
   <img src="https://img.shields.io/badge/Focus-Backend_&_Architecture-1f2937?style=flat-square" alt="Focus" />
   <img src="https://img.shields.io/badge/Methodology-AI--Augmented_Engineering-4338ca?style=flat-square" alt="AI Augmented" />
-  <img src="https://img.shields.io/badge/Location-Paran%C3%A1%2C_Brasil-374151?style=flat-square" alt="Location" />
+  <img src="https://img.shields.io/badge/Location-Paran%C3%A1%2C_Brazil-374151?style=flat-square" alt="Location" />
 </p>
 
 <p align="center">
-  Desenvolvedor de software focado em arquitetura backend, integração de dados relacionais e automação de processos corporativos críticos.
+  Software engineer specializing in backend architecture, relational data integration, and mission-critical enterprise process automation.
 </p>
 
 </div>
 
 ---
 
-## 📌 Sobre Mim e Modelo Operacional
+## 📌 About Me & Engineering Philosophy
 
-Atuo na interseção entre **engenharia de software tradicional** e **fluxos modernos orientados por inteligência artificial**. Minha experiência abrange regras de negócio de backoffice (faturamento, estoques, comissões de vendas e relatórios estruturados), modelagem relacional profunda e interoperabilidade entre sistemas.
+I operate at the intersection of **classical backend engineering** and **modern AI-augmented workflows**. My experience centers on complex back-office business rules (invoicing, inventory management, sales commission structures, and structured reporting), deep relational database modeling, and cross-system interoperability.
 
-### 🤖 Engenharia de Software Aumentada por IA (*Human-in-the-Loop*)
-Minha abordagem não é a geração passiva de código, mas a **orquestração técnica e governança ativa**:
-- **O papel da IA:** Aceleração na escrita de código estrutural (*scaffolding*), refatorações sintáticas, automação de testes e geração rápida de protótipos em velocidade multiplicada.
-- **Meu papel técnico:** Definição da arquitetura do sistema, engenharia reversa conceitual, modelagem estrita de dados, análise de segurança e validação determinística de regras fiscais e contábeis.
+### 🤖 AI-Augmented Engineering (*Human-in-the-Loop*)
+My approach is rooted in **active technical governance and architecture**, not passive code generation:
+- **The Role of AI:** Accelerated scaffolding, syntax refactoring, automated test generation, and 10x rapid prototyping.
+- **My Engineering Role:** Systems architecture design, conceptual reverse engineering, strict data modeling, security auditing, and deterministic validation of business, fiscal, and operational constraints.
 
-> **🔒 Nota sobre Repositórios Corporativos:**  
-> A maior parte do meu trabalho em produção — incluindo pipelines de migração de dados e ferramentas de engenharia reversa — reside em **repositórios privados sob acordos de confidencialidade (NDA)**. Por envolverem propriedade intelectual restrita e dados fiscais de clientes, o código-fonte permanece confidencial. Abaixo constam meus projetos públicos de referência e os estudos de caso arquiteturais que liderei.
+> **🔒 Note on Enterprise Repositories:**  
+> The majority of my production work — including large-scale ETL migration pipelines and proprietary reverse-engineering tools — resides in **private repositories under strict Non-Disclosure Agreements (NDAs)**. Due to client data privacy and proprietary business logic, that source code remains confidential. Below you will find my open-source reference projects alongside architectural case studies I have led.
 
 ---
 
-## 🛠️ Stack & Tecnologias Verificadas
+## 🛠️ Verified Tech Stack
 
-| Camada | Tecnologias |
+| Domain | Technologies |
 | :--- | :--- |
-| **Linguagens** | `PHP`, `Python`, `TypeScript`, `JavaScript (ES6+)`, `SQL`, `Java` |
+| **Languages** | `PHP`, `Python`, `TypeScript`, `JavaScript (ES6+)`, `SQL`, `Java` |
 | **Backend & Frameworks** | `Laravel Framework`, `REST APIs`, `mPDF`, `Breeze / Sanctum` |
-| **Bancos de Dados & Dados** | `PostgreSQL`, `MySQL`, `SQLite`, `Sybase / ASA`, `Modelagem Relacional`, `ETL` |
-| **Automação & Sistemas** | `Windows API (Win32 / MDI)`, `RPA Desktop`, `Engenharia Reversa de Binários` |
+| **Databases & Data** | `PostgreSQL`, `MySQL`, `SQLite`, `Sybase / ASA`, `Relational Modeling`, `ETL` |
+| **Automation & Systems** | `Windows API (Win32 / MDI)`, `Desktop RPA`, `Binary Reverse Engineering` |
 | **Frontend & Mobile** | `Tailwind CSS`, `HTML5 / CSS3`, `React Native (TypeScript)`, `Web UI / Canvas` |
-| **Qualidade & DevOps** | `Git / GitHub`, `Docker`, `Suítes de Testes Automatizados (E2E)`, `Playwright` |
+| **Quality & DevOps** | `Git / GitHub`, `Docker`, `Automated Test Suites (E2E)`, `Playwright` |
 
 ---
 
-## 🌟 Portfólio de Projetos
+## 🌟 Featured Projects
 
-### Projetos Públicos de Referência (Código Aberto)
+### Open-Source Reference Projects
 
-#### 🧾 [Emissão de Fatura](https://github.com/Lamezon/Emissao-de-Fatura)
-*Sistema web para gestão comercial, controle de clientes e faturamento automatizado.*
-- **Problema:** Necessidade de centralizar faturamento e emitir documentos estruturados para impressão e auditoria sem quebras de layout.
-- **Implementação:** Aplicação Laravel com controle de acesso, persistência relacional e renderização dinâmica de PDFs via `mPDF` e planilhas via `Excel`.
-- **Tecnologias:** `PHP`, `Laravel`, `mPDF`, `Guzzle`, `MySQL/PostgreSQL`.
-- **Estado:** Concluído / Funcional.
+#### 🧾 [Invoice Generation System](https://github.com/Lamezon/Emissao-de-Fatura)
+*Web application for commercial billing, customer management, and automated invoice delivery.*
+- **Problem:** Centralizing billing workflows and exporting pixel-perfect documents for formal printing and compliance.
+- **Implementation:** Laravel-based application featuring role-based access control, relational persistence, and dynamic generation of formatted PDFs via `mPDF` and spreadsheets via `Excel`.
+- **Stack:** `PHP`, `Laravel`, `mPDF`, `Guzzle`, `MySQL/PostgreSQL`.
+- **Status:** Complete / Functional.
 
 #### 📈 [Humtech](https://github.com/Lamezon/humtech)
-*Plataforma de gestão operacional, comissionamento e relatórios financeiros.*
-- **Problema:** Gestão de vendas descentralizadas e cálculo complexo de comissões de equipe comercial.
-- **Implementação:** Arquitetura MVC com controladores dedicados (`EarnController`, `SaleController`), autenticação segura via `Sanctum/Breeze` e banco PostgreSQL.
-- **Tecnologias:** `PHP 7.4`, `Laravel 8`, `PostgreSQL 11`, `Breeze`.
-- **Estado:** Concluído / Funcional.
+*Operational management platform for sales tracking, commission calculations, and financial reporting.*
+- **Problem:** Managing decentralized sales transactions and automating complex multi-tier team commissions.
+- **Implementation:** Clean MVC architecture with dedicated domain controllers (`EarnController`, `SaleController`), secure authentication via `Sanctum/Breeze`, and PostgreSQL persistence.
+- **Stack:** `PHP 7.4`, `Laravel 8`, `PostgreSQL 11`, `Breeze`.
+- **Status:** Complete / Functional.
 
 #### 📦 [KubaSeller](https://github.com/Lamezon/KubaSeller)
-*Módulo de controle de estoque e acompanhamento de vendedores.*
-- **Problema:** Rastreabilidade de saídas de mercadorias e desempenho por representante.
-- **Implementação:** Separação de escopo por vendedor (`SellerController`), relatórios analíticos de vendas e interface construída com utilitários Tailwind CSS.
-- **Tecnologias:** `PHP`, `Laravel`, `Tailwind CSS`, `JavaScript`.
-- **Estado:** Protótipo Funcional.
+*Inventory control and sales representative tracking module.*
+- **Problem:** Real-time visibility into product inventory flow and sales performance by representative.
+- **Implementation:** Scoped architecture per representative (`SellerController`), sales analytics reports, and a responsive UI built with Tailwind CSS utilities.
+- **Stack:** `PHP`, `Laravel`, `Tailwind CSS`, `JavaScript`.
+- **Status:** Functional Prototype.
 
 #### 📱 [PasswordApp](https://github.com/Lamezon/PasswordApp)
-*Aplicativo móvel multiplataforma para geração e gerenciamento de credenciais.*
-- **Implementação:** Construído com React Native e TypeScript estrito, com suporte a internacionalização (`i18n`) e arquitetura de componentes reutilizáveis.
-- **Tecnologias:** `TypeScript`, `React Native`, `Ignite CLI`.
-- **Estado:** Protótipo Funcional.
+*Cross-platform mobile application for credential generation and secure management.*
+- **Implementation:** Built using React Native with strict TypeScript typing, internationalization (`i18n`) support, and reusable UI components.
+- **Stack:** `TypeScript`, `React Native`, `Ignite CLI`.
+- **Status:** Functional Prototype.
 
 ---
 
-### Soluções Corporativas & Casos de Arquitetura `🔒 Privado / Enterprise`
+### Enterprise Solutions & Architectural Case Studies `🔒 Private / Proprietary`
 
 #### 1. 🖨️ BGR Editor — Web Studio (Domínio Sistemas / Thomson Reuters)
-*Estúdio Web WYSIWYG completo projetado para edição, conversão e compilação do formato binário proprietário `.bgr`.*
-- **Engenharia Reversa:** Decodificação e compilação do binário criptografado (XOR + zlib + sintaxe PowerBuilder DataWindow release 11.5).
-- **Motor Inteligente PDF → BGR:** Conversor que mapeia PDFs corporativos em relatórios de folha A4 com calibração geométrica milimétrica 1:1.
-- **Confiabilidade:** Suíte com 87 testes automatizados cobrindo 15 setores do sistema para garantir zero falhas em produção.
+*Full-featured WYSIWYG Web Studio designed for editing, converting, and compiling the proprietary `.bgr` binary format.*
+- **Reverse Engineering:** Decoded and built a native compiler for encrypted binary structures (XOR + zlib + PowerBuilder DataWindow release 11.5 syntax).
+- **Smart PDF → BGR Engine:** Converter that translates corporate PDFs directly into A4 report components with 1:1 geometric precision.
+- **Resilience:** Comprehensive test suite with 87 automated tests across 15 system sectors to ensure zero regressions in production.
 - **Stack:** `Python`, `SQLite / Turso (libSQL)`, `ODBC Sybase ASA`, `Vanilla JS/CSS`.
 
 #### 2. 🔄 Multi-ERP ETL & Migration Engine
-*Motor de migração e normalização de dados conectando mais de 30 ERPs contábeis e fiscais do mercado brasileiro.*
-- **Engenharia de Dados em Escala:** Dicionário e catálogo estruturado com mais de **5.100 tabelas mapeadas**.
-- **Interoperabilidade:** Pipelines de extração e conversão entre bancos de dados heterogêneos (TOTVS Protheus, RM, Questor, Contmatic, Fortes, Senior Rubi, Domínio, etc.).
-- **Garantia de Integridade:** Sanitização de inconsistências relacionais e tratamento estrito de integridade referencial.
+*High-throughput data extraction, unification, and sanitization pipeline bridging 30+ Brazilian accounting and payroll ERP systems.*
+- **Data Engineering at Scale:** Cataloged and structured relational dictionary mapping over **5,100 tables**.
+- **Interoperabilidade:** Automated migration pipelines between heterogeneous legacy databases (TOTVS Protheus, RM, Questor, Contmatic, Fortes, Senior Rubi, Domínio, etc.).
+- **Integrity First:** Strict handling of referential integrity, foreign key dependencies, and schema reconciliation.
 
-#### 3. 🤖 DominioExplorer (RPA & Automação Windows Win32)
-*Agente de automação para sistemas desktop legados sem APIs disponíveis.*
-- Controle de janelas MDI e execução autônoma de fluxos contábeis e de folha via chamadas nativas da Windows API.
+#### 3. 🤖 DominioExplorer (Windows Win32 / Desktop RPA)
+*Deep automation framework for legacy desktop ERP systems lacking public APIs.*
+- MDI child window inspection, automated navigation, and autonomous execution of accounting and payroll workflows via native Windows API calls.
 
 ---
 
-## 📊 Atividade no GitHub
+## 📊 GitHub Activity
 
 <div align="center">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=Lamezon&show_icons=true&theme=tokyonight&hide_rank=true&include_all_commits=true" alt="Estatísticas do GitHub" />
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lamezon&layout=compact&theme=tokyonight&langs_count=6" alt="Linguagens mais utilizadas" />
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=Lamezon&show_icons=true&theme=tokyonight&hide_rank=true&include_all_commits=true" alt="GitHub Stats" />
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lamezon&layout=compact&theme=tokyonight&langs_count=6" alt="Top Languages" />
 </div>
 
 ---
 
-## 📬 Contato Profissional
+## 📬 Connect With Me
 
 - **GitHub:** [@Lamezon](https://github.com/Lamezon)
-- **Mensagens & Oportunidades:** Aberto a discussões técnicas, projetos de dados/integração e engenharia backend através do GitHub.
+- **Opportunities & Collaboration:** Open to discussions on backend engineering, data integration pipelines, and remote systems architecture.
