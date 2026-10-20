@@ -1,5 +1,5 @@
 <div align="right">
-  <strong>English</strong> | <a href="readme.pt.md">🇧🇷 Versão em Português</a>
+  <strong>English</strong> | <a href="readme.pt-BR.md">🇧🇷 Versão em Português</a>
 </div>
 
 <div align="center">
