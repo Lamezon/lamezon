@@ -1,3 +1,6 @@
+<div align="right">
+  <a href="README.md">🇺🇸 English</a> | <strong>Português</strong>
+</div>
 <div align="center">
 
 # Matheus Lamezon
